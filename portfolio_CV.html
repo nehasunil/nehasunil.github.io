@@ -8,7 +8,7 @@
     Document Title
     =============================================
     -->
-    <title>Neha Sunil | Project Portfolio</title>
+    <title>Neha Sunil | Computer Vision</title>
     <!--  
     Favicons
     =============================================
@@ -78,80 +78,66 @@
         </div>
       </nav>
       <div class="main">
-        <section class="module bg-dark-60 portfolio-page-header" data-background="eng_resized/Megapi.jpg">
+        <section class="module bg-dark-60 portfolio-page-header" data-background="eng_resized/1894x918/CV.jpg">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Project Portfolio</h2>
-                <div class="module-subtitle font-serif">A collection of my engineering and research projects.</div>
+                <h2 class="module-title font-alt">Computer Vision</h2>
+                <div class="module-subtitle font-serif">ME 72 &amp ME 133b Final Project</div>
               </div>
             </div>
           </div>
         </section>
+          
         <section class="module">
           <div class="container">
             <div class="row">
-              <div class="col-sm-12">
-                <ul class="filter font-alt" id="filters">
-                  <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".hardware" data-wow-delay="0.2s">Hardware</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".software" data-wow-delay="0.4s">Software</a></li>
-                </ul>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A8Ia-xgSQ5s" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="work-details">
+                  <h5 class="work-details-title font-alt">Project Details</h5>
+                  <p>The 2018 ME72 competition “Tank Wars” was broken up into matches during which two teams fielded three robots each. Multiple “bases” were set up across the game field, also featuring a ramp, seesaw, and cardboard obstacles. Bases could be captured by robots pressing a button on the base, and teams were awarded points for the time spent controlling a base. The beginning of each match featured a 40s autonomous period before the remaining five minutes of tele-operated play. Our team tried to use computer vision to position our robots in the ideal starting positions, with one robot aiming towards the edge of the nearest ground base and the other two aligning with the ramp and the far seesaw respectively.</p>
+                  <p>The purple base was easy to differentiate from its surroundings using hue-based segmentation. We used the erosion function to remove noise from the binarized image and the dilation function to join broken parts of an object. The largest region returned by SimpleCV’s findBlobs function applied to the segmented image was marked as the base, if it was larger than a specified size threshold. If the base was over four feet away, as determined by the distance between the bottom of the frame and the bottom of the base, the algorithm focused on aligning the right edge of the base with 3 inches of clearance using a limited servo angle range. When the robot was closer to the base, the algorithm used a surface fit model to map the X and Y pixel bounds to the necessary change in servo angle.</p>
+                  <ul>
+                    <li><strong>Date: </strong>January - March 2018</a></span>
+                    </li>
+                    <li><strong>Learn More: </strong><a href="ME133b_ComputerVision.pdf" target="_blank">Final Report</a></span>
+                  </ul>
+                </div>
               </div>
             </div>
-            <ul class="works-grid works-grid-gut works-hover-w" id="works-grid">
-              <li class="work-item hardware software"><a href="portfolio_ME72.html">
+          </div>
+        </section>
+        <hr class="divider-w">
+        <section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Related Projects</h2>
+              </div>
+            </div>
+            <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+              <li class="work-item engineering"><a href="portfolio_Nima.html">
+                  <div class="work-image"><img src="eng_resized/Nima.jpg" alt="Portfolio Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">Multichannel Strip Tester</h3>
+                    <div class="work-descr">Design Project at Nima Sensor</div>
+                  </div></a></li>
+              <li class="work-item engineering"><a href="portfolio_ME72.html">
                 <div class="work-image"><img src="eng_resized/ME72_final.jpg" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">RC Car</h3>
                   <div class="work-descr">ME 72 Competition</div>
                 </div></a></li>
-              <li class="work-item hardware"><a href="portfolio_Nima.html">
-                <div class="work-image"><img src="eng_resized/Nima.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Multichannel Strip Tester</h3>
-                  <div class="work-descr">Design Project at Nima Sensor</div>
-                </div></a></li>
-              <li class="work-item software"><a href="portfolio_CV.html">
-                <div class="work-image"><img src="eng_resized/CV.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Computer Vision</h3>
-                  <div class="work-descr">ME 72 &amp ME 133b Final 3Project</div>
-                </div></a></li>
-              <li class="work-item hardware software"><a href="portfolio_ME14Project.html">
+              <li class="work-item engineering"><a href="portfolio_ME14Project.html">
                 <div class="work-image"><img src="eng_resized/ME14FinalProject.jpg" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Autonomous Product Locator</h3>
                   <div class="work-descr">Design &amp Fabrication Course Project</div>
-                </div></a></li>
-            <li class="work-item software"><a href="portfolio_Crispr.html">
-                <div class="work-image"><img src="eng_resized/Roadmap.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">CRISPR Library Creation Tool</h3>
-                  <div class="work-descr">Computational Genomics Internship at Stanford</div>
-                </div></a></li>
-            <li class="work-item hardware software"><a href="portfolio_RoboticArmTank.html">
-                <div class="work-image"><img src="eng_resized/Tank.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Robotic Arm Tank</h3>
-                  <div class="work-descr">Teaching Robotics to Kids</div>
-                </div></a></li>
-            <li class="work-item hardware"><a href="portfolio_Transmission.html">
-                <div class="work-image"><img src="eng_resized/transmission.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Spur Gear Transmission</h3>
-                  <div class="work-descr">Design &amp Fabrication Course Contest</div>
-                </div></a></li>
-            <li class="work-item software"><a href="portfolio_Aurasma.html">
-                <div class="work-image"><img src="eng_resized/Aurasma.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Augmented Reality in Yearbook</h3>
-                </div></a></li>
-            <li class="work-item hardware"><a href="portfolio_Boat.html">
-                <div class="work-image"><img src="eng_resized/Boat.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Ultrasonic-Seeking Fan-Propelled Boat</h3>
-                <div class="work-descr">Intro to Mechatronics Course Project</div>
                 </div></a></li>
             </ul>
           </div>
