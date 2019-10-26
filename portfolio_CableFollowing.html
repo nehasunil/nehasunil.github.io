@@ -8,7 +8,7 @@
     Document Title
     =============================================
     -->
-    <title>Neha Sunil | Project Portfolio</title>
+    <title>Neha Sunil | Cable Following</title>
     <!--
     Favicons
     =============================================
@@ -78,96 +78,66 @@
         </div>
       </nav>
       <div class="main">
-        <section class="module bg-dark-60 portfolio-page-header" data-background="eng_resized/Megapi2.jpg">
+        <section class="module bg-dark-60 portfolio-page-header" data-background="eng_resized/1894x918/CableFollowing.jpg">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Project Portfolio</h2>
-                <!--div class="module-subtitle font-serif">A collection of my engineering and research projects.</div-->
+                <h2 class="module-title font-alt">Cable Following with Tactile Perception</h2>
+                <div class="module-subtitle font-serif">ICRA 2020</div>
               </div>
             </div>
           </div>
         </section>
+
         <section class="module">
           <div class="container">
             <div class="row">
-              <div class="col-sm-12">
-                <ul class="filter font-alt" id="filters">
-                  <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".mit" data-wow-delay="0.2s">MIT</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".caltech" data-wow-delay="0.4s">Caltech</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".stanford" data-wow-delay="0.6s">Stanford</a></li>
-                  <!-- <li><a class="wow fadeInUp" href="#" data-filter=".hardware" data-wow-delay="0.8s">Hardware</a></li>
-                  <li><a class="wow fadeInUp" href="#" data-filter=".software" data-wow-delay="1.0s">Software</a></li> -->
-
-                </ul>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-xKeWdrmuBc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="work-details">
+                  <h5 class="work-details-title font-alt">Project Details</h5>
+                  <p>In this work, we develop a perception and control framework to enable robots to accomplish the task of following a cable. We rely on a vision-based tactile sensor, GelSight, to estimate the pose of the cable in the grip as well as the friction forces during cable sliding. We decompose the behavior of cable following into two tactile-based controllers: 1) Cable grip controller, where a PD controller combined with a leaky integrator are responsible for regulating the gripping force to maintain the frictional sliding forces close to a suitable value; and 2) Cable pose controller, where an LQR controller based on a learned linear model of the cable sliding dynamics is in charge of keeping the cable centered and aligned on the fingertips to prevent the cable from falling. </p>
+                  <p>This behavior is enabled by a designed reactive gripper with force and position control capabilities fitted with GelSight-based high resolution tactile sensors. With the proposed framework, we show that the robot can follow one meter of cable in a random configuration from beginning to end within 2-3 hand regrasps. We further demonstrate that the closed-loop system adapts to cables with different materials and thicknesses, moving at different target velocities.</p>
+                  <ul>
+                    <li><strong>Date: </strong>September 2019</a></span>
+                    </li>
+                    <li><strong>Learn More: </strong><a href="http://gelsight.csail.mit.edu/cable/" target="_blank">Project Website</a></span>
+                  </ul>
+                </div>
               </div>
             </div>
-            <ul class="works-grid works-grid-gut works-hover-w" id="works-grid">
-              <li class="work-item hardware software caltech"><a href="portfolio_ME72.html">
+          </div>
+        </section>
+        <hr class="divider-w">
+        <section class="module">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Related Projects</h2>
+              </div>
+            </div>
+            <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+              <li class="work-item engineering"><a href="portfolio_Nima.html">
+                  <div class="work-image"><img src="eng_resized/Nima.jpg" alt="Portfolio Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">Multichannel Strip Tester</h3>
+                    <div class="work-descr">Design Project at Nima Sensor</div>
+                  </div></a></li>
+              <li class="work-item engineering"><a href="portfolio_ME72.html">
                 <div class="work-image"><img src="eng_resized/ME72_final.jpg" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">RC Car</h3>
                   <div class="work-descr">ME 72 Competition</div>
                 </div></a></li>
-              <li class="work-item hardware software mit"><a href="portfolio_CableFollowing.html">
-                <div class="work-image"><img src="eng_resized/CableFollowing.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Cable Following</h3>
-                  <div class="work-descr">ICRA 2020</div>
-                </div></a></li>
-              <li class="work-item software caltech"><a href="portfolio_CV.html">
-                <div class="work-image"><img src="eng_resized/CV.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Computer Vision</h3>
-                  <div class="work-descr">ME 72 &amp ME 133b Final Project</div>
-                </div></a></li>
-              <li class="work-item hardware"><a href="portfolio_Nima.html">
-                <div class="work-image"><img src="eng_resized/Nima.jpg" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Multichannel Strip Tester</h3>
-                  <div class="work-descr">Design Project at Nima Sensor</div>
-                </div></a></li>
-              <li class="work-item hardware software caltech"><a href="portfolio_ME14Project.html">
+              <li class="work-item engineering"><a href="portfolio_ME14Project.html">
                 <div class="work-image"><img src="eng_resized/ME14FinalProject.jpg" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
                   <h3 class="work-title">Autonomous Product Locator</h3>
                   <div class="work-descr">Design &amp Fabrication Course Project</div>
-                </div></a></li>
-              <li class="work-item hardware caltech"><a href="portfolio_Haptics.html">
-                  <div class="work-image"><img src="eng_resized/phantom.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">Vehicle Teleoperation with Haptic Feedback</h3>
-                    <div class="work-descr">Experimental Robotics Course Project</div>
-                  </div></a></li>
-              <li class="work-item software stanford"><a href="portfolio_Crispr.html">
-                  <div class="work-image"><img src="eng_resized/Roadmap.jpg" alt="Portfolio Item"/></div>
-                  <div class="work-caption font-alt">
-                    <h3 class="work-title">CRISPR Library Creation Tool</h3>
-                    <div class="work-descr">Computational Genomics Internship at Stanford</div>
-                  </div></a></li>
-              <li class="work-item hardware software"><a href="portfolio_RoboticArmTank.html">
-                    <div class="work-image"><img src="eng_resized/Tank.jpg" alt="Portfolio Item"/></div>
-                    <div class="work-caption font-alt">
-                      <h3 class="work-title">Robotic Arm Tank</h3>
-                      <div class="work-descr">Teaching Robotics to Kids</div>
-                    </div></a></li>
-            <li class="work-item software"><a href="portfolio_Aurasma.html">
-                    <div class="work-image"><img src="eng_resized/Aurasma.JPG" alt="Portfolio Item"/></div>
-                    <div class="work-caption font-alt">
-                      <h3 class="work-title">Augmented Reality in Yearbook</h3>
-                    </div></a></li>
-            <li class="work-item hardware caltech"><a href="portfolio_Transmission.html">
-                <div class="work-image"><img src="eng_resized/transmission.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Spur Gear Transmission</h3>
-                  <div class="work-descr">Design &amp Fabrication Course Contest</div>
-                </div></a></li>
-            <li class="work-item hardware caltech"><a href="portfolio_Boat.html">
-                <div class="work-image"><img src="eng_resized/Boat.JPG" alt="Portfolio Item"/></div>
-                <div class="work-caption font-alt">
-                  <h3 class="work-title">Ultrasonic-Seeking Fan-Propelled Boat</h3>
-                <div class="work-descr">Intro to Mechatronics Course Project</div>
                 </div></a></li>
             </ul>
           </div>
