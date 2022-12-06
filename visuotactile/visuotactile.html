@@ -1,0 +1,318 @@
+
+<html>
+
+<head>
+    <title>Visuotactile Affordances for Cloth Manipulation with Local Control</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="css/project.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div style="padding-top: 2em">
+        <div style="width: 70em; margin: auto;">
+            <div align='center' class="titleauthor">
+                <h1>
+                    Visuotactile Affordances for Cloth Manipulation with Local Control
+                </h1>
+                <br />
+                <p>
+                    <a href="http://nehasunil.com/" target="_blank">Neha Sunil*</a> &nbsp
+                    <a href="http://wx405557858.github.io" target="_blank">Shaoxiong Wang*</a> &nbsp
+                    <a href="https://sites.google.com/view/yu-she" target="_blank">Yu She</a> &nbsp
+                </p>
+                <p>
+                    <a href="http://persci.mit.edu/people/adelson" target="_blank">Edward H. Adelson</a> &nbsp
+                    <a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank">Alberto Rodriguez</a>
+                </p>
+                <br />
+                <p><a href="http://www.mit.edu"><strong>MIT</a></strong></p>
+                <br />
+            </div>
+            <!-- <img src="videos/cable_teaser.gif"> -->
+            <div class="col-md-12">
+                <div class="col-md-12" align="center">
+                    <a><img src="imgs/teaser.jpg" style="max-width: 90%" /></a>
+                </div>
+                <div class="col-md-12">
+                    <br />
+                    <p>
+                      Cloth in the real world is often crumpled, self-occluded, or folded in on itself such that key regions, such as corners, are not directly graspable, making manipulation difficult. We leverage visual and tactile perception to unfold the cloth via grasping and sliding on edges. By doing so, the robot is able to grasp two adjacent corners, enabling subsequent manipulation tasks like folding or hanging. As components of this system, we develop tactile perception networks that classify whether an edge is grasped and estimate the pose of the edge. We use the edge classification network to supervise a visuotactile edge grasp affordance network that can grasp edges with a 90% success rate. Once an edge is grasped, we demonstrate that the robot can slide along the cloth to the adjacent corner in both (a) vertical and (b) horizontal configurations using tactile pose estimation/control in real time.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <div align="center">
+                    <h3> Supplementary Video</h3>
+                    <br />
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/_W6KIppCUBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>Preprint</h3>
+                </div>
+                <div class="col-md-12">
+                    <br />
+                </div>
+                <!-- Latest version (Oct 3, 2019): <a href="https://arxiv.org/pdf/1910.02860.pdf">arXiv:1910.02860 [cs.RO]</a> -->
+                <!-- <div class="col-md-12" class="demos">
+                    <a href="https://arxiv.org/pdf/1910.02860.pdf" target="_blank"><img src="imgs/cables_thumbnail.jpg" width="100%" style="border: 1px solid; border-color: #888888;"></a>
+                </div> -->
+                <div class="col-md-12">
+                    <br />
+                </div>
+                <div class="col-md-12">
+                    <strong>Visuotactile Affordances for Cloth Manipulation with Local Control</strong>
+                    <div>
+                        <font color="gray">Neha Sunil*, Shaoxiong Wang*, Yu She, Edward H. Adelson, and Alberto Rodriguez</font>
+                    </div>
+                    <div>
+                        <font color="gray">Conference on Robot Learning (CoRL) 2022</font>
+                        <br />
+                    </div>
+                    <div>
+						[<a href="https://openreview.net/pdf?id=s6NEzqZKaP-" target="_blank">Paper</a>][<a href="sunil2022corl.bib" target="_blank">BibTeX</a>](* indicates equal contributions)
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <!-- <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>Authors</h3>
+                </div>
+                <br />
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://nehasunil.com/" target="_blank"><img src="imgs/avatar/neha_sunil.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://nehasunil.com/" target="_blank">Neha Sunil*<sup>1</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://wx405557858.github.io" target="_blank"><img src="imgs/avatar/shawn_wang.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://wx405557858.github.io" target="_blank">Shaoxiong Wang*<sup>1</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="https://sites.google.com/view/yu-she" target="_blank"><img src="imgs/avatar/yu_she.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="https://sites.google.com/view/yu-she" target="_blank">Yu She*<sup>2</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank"><img src="imgs/avatar/alberto_rodriguez.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank">Alberto Rodriguez<sup>1</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://persci.mit.edu/people/adelson" target="_blank"><img src="imgs/avatar/ted_adelson.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://persci.mit.edu/people/adelson" target="_blank">Edward H. Adelson<sup>1</sup> </a>
+                    </div>
+                </div>
+                <p />
+                <p>
+                    <a href="http://www.mit.edu"> <sup>1</sup> Massachusetts Institute of Technology </a>
+                    <a href="http://www.mit.edu"> <sup>2</sup> Purdue University </a>
+                </p>
+            </div> -->
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Cloth Manipulation </h3>
+                    In order to fold or unfold the cloth, we first pick the towel up from a surface, grasp a corner, grasp an edge adjacent to that corner, and slide to the adjacent corner. Once the robot is grasping two corners, it can complete the folding or unfolding task open-loop.
+                    <br /><br />
+                </div>
+                <div class="col-md-12" align="center">
+                    <p>
+                        <strong>State Machine</strong>
+                    </p>
+                </div>
+                <div class="col-md-12" align="center">
+                    <img src="imgs/state_machine.jpg" width="90%">
+                </div>
+                <div class="col-md-12"> <br /> </div>
+                <div class="col-md-12" align="center">
+                    <!-- <img src="videos/Task.gif" width="80%"> -->
+                    <video width="90%" playsinline="" muted="" autoplay="" loop="">
+                        <source src="videos/Task.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <!-- Add whole task gif -->
+                <br /><br />
+                <div class="col-md-12"> <br /> </div>
+                <div class="col-md-12"> <br /> </div>
+
+                <div class="col-md-12">
+                    <p>
+                        To enable this behavior, we have three main contributions (described further in below sections):
+                        <ol>
+                          <li><strong>Tactile Perception of Local Features.</strong> For classification and pose estimation of local features </li>
+                          <li><strong>Visuotactile Grasp Affordances.</strong> A grasp localization affordance network pre-trained in simulation and fine-tuned with tactile supervision</li>
+                          <li><strong>Tactile Sliding.</strong> Tactile based controllers to slide a gripper along the edge of cloth in two different configurations</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Tactile Perception </h3>
+                    We demonstrate a strategy for local feature pose estimation and classification using tactile perception.
+                    <br /><br />
+                </div>
+                <!-- <br/> -->
+                <div class="col-md-12">
+                    <div style="width: 50%; float: left;">
+                        <div align="center">
+                            <h5>Pose Estimation</h5>
+                        </div>
+                    </div>
+                    <div style="width: 50%; float: left;">
+                        <div align="center">
+                            <h5>Grasp Classification</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="col-md-6">
+                    <img src="videos/Pose.gif" width="100%">
+                  </div>
+                  <div class="col-md-6">
+                    <img src="videos/GraspClassification.gif" width="100%">
+                  </div>
+                    <!-- <video width="100%" playsinline="" muted="" autoplay="" loop="">
+                        <source src="videos/tactile-compressed.mp4" type="video/mp4">
+                    </video> -->
+                </div>
+                <div class="col-md-12">
+                    <br />
+                    <strong>Pose Estimation:</strong> The network takes a single depth image and outputs whether it is grasping an edge, no fabric, or all fabric. If grasping an edge, the network also outputs the position of the edge. We use this network in the tactile sliding controller.
+                    <br /><br />
+                    <strong>Grasp Classification:</strong> This network uses multiple tactile depth frames from the grasp sequence in order to classify the grasp as edge, no fabric, all fabric, corner, or fold. Multiple frames help encode temporal information to help distinguish between folds and other categories. The network has an overall classification accuracy of 92%. Since our affordance network only needs to distinguish edges from other grasps for our affordance network, we also report a non-edge classification accuracy of 98%.
+                </div>
+            </div>
+            <!-- ################################### -->
+            <div class="col-md-12"> <br /> </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Visuotactile Grasp Affordance </h3>
+                </div>
+
+                <div class="col-md-12">
+                  <div class="col-md-8">
+                    <p>
+                      Visual edge detection can be difficult since edges look similar to folds along the contour of the cloth. The cloth edge can also easily twist in on itself, but a successful grasp for sliding requires grasping a single layer with the edge aligned within the gripper to avoid collision. Given these additional considerations, we train a network that learns visuotactile edge grasp affordances (which pixels will result in good edge grasps).
+                    </p>
+                    <p>
+                      We first train this affordance network in simulation. Then, we fine-tune this network on a robot using the tactile information from the grasp attempt’s success/failure as supervision.
+                    </p>
+                  </div>
+                  <div class="col-md-4" align="center">
+                    <img src="imgs/affordancenet.jpg" width="100%">
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div style="width: 50%; float: left;">
+                        <div align="center">
+                            <h5>Simulated Dataset</h5>
+                        </div>
+                    </div>
+                    <div style="width: 50%; float: left;">
+                        <div align="center">
+                            <h5>Data Collection on Robot</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="col-md-6">
+                    <img src="videos/Simulation.gif" width="100%">
+                  </div>
+                  <div class="col-md-6">
+                    <img src="videos/DataCollection.gif" width="100%">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <br />
+                  <strong>Simulation:</strong> We used Blender to create our simulated dataset. The ground-truth labels of the affordances in simulation are determined for each pixel by whether (1) its an edge, (2) the gripper will collide with cloth, (3) the gripper would grasp a single layer of fabric, and (4) the point is reachable. All of these criteria can be determined in simulation because we have access to the full state of the cloth. We found that learning from simulation provides global structure.
+                  <br /><br />
+                  <strong>Fine-Tuning:</strong> We collected around 3,000 grasps to fine-tune our network on the real robot. We used tactile supervision from our grasp classification network to determine if an edge was successfully grasped.
+                </div>
+                <div class="col-md-12" align="center">
+                  <br /><br />
+                  <img src="videos/Affordance.gif" width="80%">
+                </div>
+
+            </div>
+            <!-- ################################### -->
+            <div class="col-md-12"> <br /> </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Tactile Sliding </h3>
+                </div>
+                <div class="col-md-12">
+                    <p>
+                        We implemented tactile sliding in two different configurations: vertical and the more challenging horizontal configuration.
+                    </p>
+                </div>
+                <div class="col-md-12">
+                    <div style="width: 50%; float: left;">
+                        <div align="center">
+                            <h5>Vertical Sliding</h5>
+                        </div>
+                    </div>
+                    <div style="width: 50%; float: left;">
+                        <div align="center">
+                            <h5>Horizontal Sliding</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="col-md-6">
+                    <img src="videos/Vertical.gif" width="100%">
+                  </div>
+                  <div class="col-md-6">
+                    <img src="videos/Horizontal.gif" width="100%">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <br />
+                  <strong>Vertical Sliding:</strong> The sliding gripper moves forward and back to keep the edge close to the target position within the grip until the robot reaches a corner. We used a proportional controller with respect to the fabric edge’s offset from the target position. An increase in shear (as determined by the tactile sensor) indicates that the sliding gripper has reached the thicker corner.
+                  <br /><br />
+                  <strong>Horizontal Sliding:</strong> This configuration is harder because the weight of the towel makes it more likely to slip from the grip. We learned a linear dynamics model that finds the relationship between state (defined by cloth edge position and orientation and robot position) and pulling angle. We used this model in an LQR controller that keeps the edge close to the target state as the cloth is pulled through.
+                  <br /><br />
+                  <br /><br />
+                </div>
+
+            </div>
+            <!-- ################################### -->
+
+        </div>
+        <!--hr width="60%" size="1" color='black'/-->
+    </div>
+</body>
+
+</html>
