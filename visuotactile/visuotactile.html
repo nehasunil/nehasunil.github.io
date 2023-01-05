@@ -302,7 +302,7 @@
                   <br />
                   <strong>Vertical Sliding:</strong> The sliding gripper moves forward and back to keep the edge close to the target position within the grip until the robot reaches a corner. We used a proportional controller with respect to the fabric edge’s offset from the target position. An increase in shear (as determined by the tactile sensor) indicates that the sliding gripper has reached the thicker corner.
                   <br /><br />
-                  <strong>Horizontal Sliding:</strong> This configuration is harder because the weight of the towel makes it more likely to slip from the grip. We learned a linear dynamics model that finds the relationship between state (defined by cloth edge position and orientation and robot position) and pulling angle. We used this model in an LQR controller that keeps the edge close to the target state as the cloth is pulled through.
+                  <strong>Horizontal Sliding:</strong> This configuration is harder because the weight of the towel makes it more likely to slip from the grip. We learned a linear dynamics model that finds the relationship between state (defined by cloth edge position and orientation and robot position) and pulling angle. This is done in a similar fashion to how we implemented <a href="http://gelsight.csail.mit.edu/cable/" target="_blank">cable following</a>. We used this model in an LQR controller that keeps the edge close to the target state as the cloth is pulled through.
                   <br /><br />
                   <br /><br />
                 </div>
