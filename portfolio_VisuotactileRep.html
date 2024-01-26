@@ -8,7 +8,7 @@
     Document Title
     =============================================
     -->
-    <title>Neha Sunil | Cable Following</title>
+    <title>Neha Sunil | Visuotactile Representation Learning </title>
     <!--
     Favicons
     =============================================
@@ -78,12 +78,12 @@
         </div>
       </nav>
       <div class="main">
-        <section class="module bg-dark-60 portfolio-page-header" data-background="eng_resized/1894x918/CableFollowing.jpg">
+        <section class="module bg-dark-60 portfolio-page-header" data-background="eng_resized/1894x918/modalities.jpg">
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Cable Following with Tactile Perception</h2>
-                <div class="module-subtitle font-serif">RSS 2020</div>
+                <h2 class="module-title font-alt">Self-Supervised Visuotactile Representation Learning for Manipulation</h2>
+                <div class="module-subtitle font-serif">Computer Vision Course Final Project</div>
               </div>
             </div>
           </div>
@@ -94,32 +94,16 @@
             <div class="row">
               <div class="col-sm-6 col-md-6 col-lg-6">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3SSsxf5PoLQ" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                  <img src="eng_resized/fused.jpg" />
                 </div>
               </div>
               <div class="col-sm-6 col-md-6 col-lg-6">
                 <div class="work-details">
                   <h5 class="work-details-title font-alt">Project Details</h5>
-                  <p>In this work, we develop a perception and control framework to enable robots to accomplish the task of following a cable. Cables are complex, high dimensional, and dynamic objects. Standard approaches to manipulate them often rely on
-                    conservative strategies that involve long series of very slow and
-                    incremental formations, or various mechanical fixtures such as clamps, pins or rings.</p>
-                  <p>We are interested in manipulating freely moving cables, in real time, with a pair of robotic grippers, and with no added mechanical constraints. We rely on a vision-based tactile sensor, GelSight, to estimate the pose of the cable in the grip as well as the friction forces during cable sliding. We decompose the behavior of cable following into two tactile-based controllers: 1) the cable grip controller, where a PD controller combined with a leaky integrator are responsible for regulating the gripping force to maintain the frictional sliding forces close to a suitable value; and 2) the cable pose controller, where an LQR controller based on a learned linear model of the cable sliding dynamics is in charge of keeping the cable centered and aligned on the fingertips to prevent the cable from falling. </p>
-                  <p>With the proposed framework, we show that the robot can follow one meter of cable in a random configuration from beginning to end within 2-3 hand regrasps. We further demonstrate that the closed-loop system adapts to cables with different materials and thicknesses, moving at different target velocities. To illustrate the potential of this system, we also show the robot following a headphone cable to the end and inserting it.</p>
+                  <p> The ability to integrate complementary information from vision and touch is a long-standing goal in robotic manipulation. While vision provides global information about an object's position and orientation, touch provides local signals of contact geometry and forces, which are important to supervise contact-rich interactions, especially in the presence of visual occlusions. In this work, we combine these modalities for two different robotics-minded goals: object classification and joint representation learning. To learn a joint representation, the visual and tactile images are embedded into a shared latent space using a cross-modal contrastive loss trained in a self-supervised manner. We implement and compare each network architecture with ResNets and Vision Transformers.</p>
                   <ul>
-                    <li><strong>RSS 2020 Best Paper Finalist </strong></span>
+                    <li><strong>Read more:&nbsp </strong><a href="6_8300_Final_Project.pdf" target="_blank">Final Report</a></span>
                     </li>
-                    <li><strong>Learn More:&nbsp </strong><a href="http://gelsight.csail.mit.edu/cable/" target="_blank">Website&nbsp&nbsp&nbsp</a></span>
-                      <a href="http://www.roboticsproceedings.org/rss16/p029.pdf" target="_blank">Paper&nbsp&nbsp</a></span>
-                      <a href="https://www.youtube.com/watch?v=KDdKcQ9NRXc" target="_blank">RSS Video</a></span>
-                    <li><strong>Media Coverage:&nbsp </strong><a href="http://news.mit.edu/2020/letting-robots-manipulate-cables-0713" target="_blank">MIT News&nbsp&nbsp&nbsp</a></span>
-                      <a href="https://techcrunch.com/2020/07/13/mit-creates-a-soft-fingered-robotic-gripper-than-could-eventually-tie-knots-and-sew-stitches/" target="_blank">TechCrunch&nbsp&nbsp&nbsp</a></span>
-                      <a href="https://www.digitaltrends.com/news/mit-csail-gelsight-research/" target="_blank">Digital Trends&nbsp&nbsp&nbsp</a></span>
-                      <a href="https://mashable.com/video/mit-robot-wires-cables/" target="_blank">Mashable&nbsp&nbsp&nbsp</a></span>
-                      <a href="https://sea.pcmag.com/robotics-automation/38175/mits-robotic-gripper-plugs-cables-in-for-you" target="_blank">PCMag&nbsp&nbsp&nbsp</a></span>
-                      <a href="https://www.engadget.com/soft-robotic-gripper-handle-thin-cables-mit-110011308.html" target="_blank">Engadget&nbsp&nbsp&nbsp</a></span>
-                      <!-- <a href="https://www.dailymail.co.uk/sciencetech/article-8518871/Researchers-invent-robotic-hand-untangle-cords-cables-eventually-fold-clothes.html" target="_blank">Daily Mail&nbsp&nbsp&nbsp</a></span>
-                      <a href="https://www.msn.com/en-us/video/news/mit-created-a-robot-that-can-handle-tiny-wires-and-cables-%e2%80%94-strictly-robots/vi-BB16GWSh" target="_blank">MSN&nbsp&nbsp&nbsp</a></span>
-                      <a href="https://www.yahoo.com/lifestyle/soft-robotic-gripper-handle-thin-cables-mit-110011308.html" target="_blank">Yahoo</a></span> -->
                   </ul>
                 </div>
               </div>
@@ -141,17 +125,17 @@
                     <h3 class="work-title">Visuotactile Cloth Manipulation</h3>
                     <div class="work-descr">CoRL 2022</div>
                   </div></a></li>
-              <li class="work-item engineering"><a href="portfolio_ME72.html">
-                <div class="work-image"><img src="eng_resized/ME72_final.jpg" alt="Portfolio Item"/></div>
+              <li class="work-item engineering"><a href="portfolio_Text2Vid.html">
+                <div class="work-image"><img src="eng_resized/diffusion.jpg" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">RC Car</h3>
-                  <div class="work-descr">ME 72 Competition</div>
+                  <h3 class="work-title">Text to Video Generation</h3>
+                  <div class="work-descr">Deep Learning Blog</div>
                 </div></a></li>
-              <li class="work-item engineering"><a href="portfolio_ME14Project.html">
-                <div class="work-image"><img src="eng_resized/ME14FinalProject.jpg" alt="Portfolio Item"/></div>
+              <li class="work-item engineering"><a href="portfolio_CableFollowing.html">
+                <div class="work-image"><img src="eng_resized/CableFollowing.jpg" alt="Portfolio Item"/></div>
                 <div class="work-caption font-alt">
-                  <h3 class="work-title">Autonomous Product Locator</h3>
-                  <div class="work-descr">Design &amp Fabrication Course Project</div>
+                  <h3 class="work-title">Cable Following</h3>
+                  <div class="work-descr">RSS 2020</div>
                 </div></a></li>
             </ul>
           </div>
@@ -162,7 +146,7 @@
               <div class="col-sm-3">
                 <div class="widget">
                   <h5 class="widget-title font-alt">Contact Me</h5>
-                  <p>Email:<a href="#">nsunil[at]mit[dot]edu</a></p>
+                  <p>Email:<a href="#">nsunil[at]caltech[dot]edu</a></p>
                 </div>
               </div>
             </div>
