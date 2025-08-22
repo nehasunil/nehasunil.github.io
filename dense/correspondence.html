@@ -1,0 +1,243 @@
+
+<html>
+
+<head>
+    <title>Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="css/project.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <div style="padding-top: 2em">
+        <div style="width: 70em; margin: auto;">
+            <div align='center' class="titleauthor">
+                <h1>
+                    Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance
+                </h1>
+                <br />
+                <p>
+                    <a href="http://nehasunil.com/" target="_blank">Neha Sunil*</a> &nbsp
+                    <a href="https://mhtippur.github.io/web/" target="_blank">Megha Tippur*</a> &nbsp
+                    <a href="https://www.linkedin.com/in/arnau-saumell/?originalSubdomain=es" target="_blank">Arnau Saumell</a> &nbsp
+                </p>
+                <p>
+                    <a href="http://persci.mit.edu/people/adelson" target="_blank">Edward H. Adelson</a> &nbsp
+                    <a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank">Alberto Rodriguez</a>
+                </p>
+                <br />
+                <p><a href="http://www.mit.edu"><strong>MIT</a></strong></p>
+                <br />
+            </div>
+            <!-- <img src="videos/cable_teaser.gif"> -->
+            <div class="col-md-12">
+                <div class="col-md-12" align="center">
+                    <a><img src="imgs/teaser.png" style="max-width: 90%" /></a>
+                </div>
+                <div class="col-md-12">
+                    <br />
+                    <p>
+                      Manipulating clothing is challenging due to complex configurations, material dynamics, and frequent self-occlusion. Prior systems often flatten garments or assume visibility of key features. We present a dual-arm visuotactile framework that combines confidence-aware dense visual correspondence and tactile-supervised grasp affordance to operate directly on crumpled and suspended garments. The correspondence model is trained on a custom, high-fidelity simulated dataset using a distributional loss that captures cloth symmetries and generates correspondence confidence estimates. These estimates guide a reactive state machine that adapts folding strategies based on perceptual uncertainty. In parallel, a visuotactile grasp affordance network, self-supervised using high-resolution tactile feedback, determines which regions are physically graspable. The same tactile classifier is used during execution for real-time grasp validation. By deferring action in low-confidence states, the system handles highly occluded table-top and in-air configurations. We demonstrate our task-agnostic grasp selection module in folding and hanging tasks. Moreover, our dense descriptors provide a reusable intermediate representation for other planning modalities, such as extracting grasp targets from human video demonstrations, paving the way for more generalizable and scalable garment manipulation.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <div align="center">
+                    <h3> Supplementary Video</h3>
+                    <br />
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/_xV5NYBbojc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>Preprint</h3>
+                </div>
+                <div class="col-md-12">
+                    <br />
+                </div>
+                <!-- Latest version (Oct 3, 2019): <a href="https://arxiv.org/pdf/1910.02860.pdf">arXiv:1910.02860 [cs.RO]</a> -->
+                <!-- <div class="col-md-12" class="demos">
+                    <a href="https://arxiv.org/pdf/1910.02860.pdf" target="_blank"><img src="imgs/cables_thumbnail.jpg" width="100%" style="border: 1px solid; border-color: #888888;"></a>
+                </div> -->
+                <div class="col-md-12">
+                    <br />
+                </div>
+                <div class="col-md-12">
+                    <strong>Reactive In-Air Clothing Manipulation with Confidence-Aware Dense Correspondence and Visuotactile Affordance</strong>
+                    <div>
+                        <font color="gray">Neha Sunil*, Megha Tippur*, Arnau Saumell, Edward H. Adelson, and Alberto Rodriguez</font>
+                    </div>
+                    <div>
+                        <font color="gray">Conference on Robot Learning (CoRL) 2025</font>
+                        <br />
+                    </div>
+                    <div>
+						[<a href="https://openreview.net/pdf?id=s6NEzqZKaP-" target="_blank">Paper</a>][<a href="https://openreview.net/pdf?id=s6NEzqZKaP-" target="_blank">Arxiv</a>][<a href="sunil2025corl.bib" target="_blank">BibTeX</a>](* indicates equal contributions)
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <!-- <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>Authors</h3>
+                </div>
+                <br />
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://nehasunil.com/" target="_blank"><img src="imgs/avatar/neha_sunil.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://nehasunil.com/" target="_blank">Neha Sunil*<sup>1</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://wx405557858.github.io" target="_blank"><img src="imgs/avatar/shawn_wang.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://wx405557858.github.io" target="_blank">Shaoxiong Wang*<sup>1</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="https://sites.google.com/view/yu-she" target="_blank"><img src="imgs/avatar/yu_she.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="https://sites.google.com/view/yu-she" target="_blank">Yu She*<sup>2</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank"><img src="imgs/avatar/alberto_rodriguez.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU" target="_blank">Alberto Rodriguez<sup>1</sup> </a>
+                    </div>
+                </div>
+                <div class="author">
+                    <div class="authorphoto">
+                        <a href="http://persci.mit.edu/people/adelson" target="_blank"><img src="imgs/avatar/ted_adelson.jpg"></a>
+                    </div>
+                    <div>
+                        <a href="http://persci.mit.edu/people/adelson" target="_blank">Edward H. Adelson<sup>1</sup> </a>
+                    </div>
+                </div>
+                <p />
+                <p>
+                    <a href="http://www.mit.edu"> <sup>1</sup> Massachusetts Institute of Technology </a>
+                    <a href="http://www.mit.edu"> <sup>2</sup> Purdue University </a>
+                </p>
+            </div> -->
+            <div class="col-md-12">
+                <hr />
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> System Overview </h3>
+                    Our system enables reactive, confidence-aware, in-air garment manipulation directly from crumpled and suspended configurations, without a prior flattening step. By combining global visual perception with local tactile feedback, the robot can identify keypoints, adapt strategies in real time, and recover from failed grasps.                    <br /><br />
+                    <p>
+                        To enable this behavior, we have four main contributions (described further in below sections):
+                        <ol>
+                          <li><strong>Parametrizable Simulated Dataset.</strong> A custom dataset with realistic stitching features and parameterized variations to enable correspondences across different shirt geometries and material properties. </li>
+                          <li><strong>Dense Representation.</strong> Pixel-wise correspondences across challenging states using a distributional loss to capture symmetries and provide confidence estimates.</li>
+                          <li><strong>Visuotactile Affordance.</strong> Grasp affordance network trained in simulation and fine-tuned using tactile self-supervision to identify graspable regions with a single camera setup. </li>
+                          <li><strong>Garment Manipulation System.</strong> A reactive visuotactile framework combining dense correspondences, affordances, and tactile sensing for confidence-aware in-air folding and hanging. </li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Parametrizable Simulated Dataset </h3>
+                    We built a custom garment simulation pipeline in Blender 4.2, adding realistic hems, seams, and varied shirt geometries to better match real-world garments. By parameterizing shape, material properties, and camera setup, we generated 1,500 diverse hanging and table-top scenes with consistent vertex indexing, enabling pixel-wise correspondences between crumpled shirts and a canonical template.
+                    <br /><br />
+                </div>
+                <!-- <br/> -->
+
+                <div class="col-md-12" align="center">
+                    <img src="imgs/simulatorparams.png" width="80%">
+                </div>
+
+                <div class="col-md-12" align="center">
+                    <img src="imgs/dataset.png" width="75%">
+                </div>
+
+              </div>
+
+            <!-- ################################### -->
+            <div class="col-md-12"> <br /> </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Dense Representation </h3>
+                    We train a ResNet34-based dense descriptor network to map each garment pixel to a canonical flat shirt. Unlike contrastive losses, which force a single “best match” and often fail on symmetric or occluded regions, our distributional loss models multiple valid correspondences and outputs a probability map.
+
+                    <div class="col-md-12" align="center">
+                        <img src="imgs/training.png" width="100%">
+                    </div>
+                  </br>
+
+                    This allows the network to:
+                    <ul>
+                      <li><strong>Handles Symmetry:</strong> Distributional loss models multiple valid matches (e.g., either sleeve end), while contrastive forces a single match and often fails on symmetric regions.</li>
+                      <li><strong>Captures Ambiguity:</strong> Outputs a probability map over possible correspondences instead of a single “best” pixel, preserving spatial consistency in uncertain areas.</li>
+                      <li><strong>Confidence-Aware:</strong> Provides correspondence confidence for safer grasp planning, enabling the robot to defer low-certainty actions.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- ################################### -->
+
+            <!-- ################################### -->
+            <div class="col-md-12"> <br /> </div>
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Visuotactile Affordance </h3>
+                    To identify graspable garment regions, we train a depth-based affordance network in simulation and fine-tune it on the real robot using high-resolution tactile feedback. In <strong>simulation,</strong> ground-truth labels are computed from full cloth state to ensure reachable, collision-free grasps with minimal fabric layers. </br> </br>
+
+                    <div class="col-md-12" align="center">
+                        <img src="imgs/affordancesim.png" width="70%">
+                    </div>
+
+                    On the <strong>robot</strong>, a tactile classifier distinguishes successful grasps from those with too little or excess fabric, providing self-supervised labels for fine-tuning. This visuotactile loop improves robustness to material variation and complex, crumpled configurations, enabling reliable grasp selection with a single camera view.
+
+                    </br></br>
+                    <div class="col-md-12" align="center">
+                      <img src="videos/datacollection.gif" width="60%">
+                    </div>
+
+                </div>
+              </br> </br> </br>
+
+
+
+
+            </div>
+            <!-- ################################### -->
+
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3> Garment Manipulation System </h3>
+                    Our bimanual system combines dense correspondence, visuotactile affordance, and tactile sensing within a confidence-based state machine for in-air garment manipulation that dynamically chooses between grasp strategies. At each step, the robot selects grasp points where both correspondence and affordance exceed thresholds, deferring low-confidence actions and rotating the garment to expose new regions. Tactile feedback validates grasps in real time and enables closed-loop tensioning before folding or hanging. This reactive approach allows the robot to adapt strategies on the fly, recover from failures, and manipulate a wide range of garments without flattening.                    <br /><br />
+                </div>
+
+                <div class="col-md-12" align="center">
+                    <img src="imgs/statemachine.png" width="70%">
+                </div>
+
+              </div>
+
+        </div>
+        <!--hr width="60%" size="1" color='black'/-->
+    </div>
+</body>
+
+</html>
